@@ -6,10 +6,6 @@
     padding: 0;
     font-family: 'poppins';
 }
-
-
-
-/* Header Styles */
 header {
     width: 100vw;
     height: 60px;
@@ -78,9 +74,59 @@ header a{
 }
 .box{
     display: flex;
+    border: 1px  gray;
     background-color: white;
     border-color: black;
     margin: 20px 20px 20px 60px;
     height: 25vh;
     width: 90vw;
+}
+.box img{
+    margin-right: 15vw;
+}
+h5{
+    width: 64vw;
+    display: flex;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    justify-content: space-between;
+    font-weight: 700;
+}
+small{
+    font-weight: 550;
+}
+.card p{
+    font-weight: 300;
+}
+.capsules{
+    margin-top: 15px;
+}
+.capsules span{
+    border: 1px solid gray;
+    padding: 0px 6px;
+    border-radius: 7px;
+    font-size: 10px;
+
+}
+.button{
+    margin-top: 15px;
+    font-weight: 300;
+}
+.button button{
+    padding: 7px 15px;
+    border: 1px solid gray;
+    border-radius: 10%;
+    background-color: white;
+    color: black;
+    font-size: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.button button:hover{
+    background-color: black;
+    color: white;
+}
+b{
+    border: 1px ;
 }
