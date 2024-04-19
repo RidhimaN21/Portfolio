@@ -18,3 +18,37 @@ document.addEventListener('DOMContentLoaded', function() {
         window.open(resumeUrl, '_blank');
     }
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+
+    const readMoreButtons = document.querySelectorAll('.read-more-btn1');
+
+
+    readMoreButtons.forEach(button => {
+        button.addEventListener('click', function() {
+            window.location.href = 'yogasana-details.html';
+        });
+    });
+});
+document.addEventListener('DOMContentLoaded', function() {
+
+    const readMoreButtons = document.querySelectorAll('.read-more-btn2');
+
+
+    readMoreButtons.forEach(button => {
+        button.addEventListener('click', function() {
+            window.location.href = 'portfolio-details.html';
+        });
+    });
+});
+document.addEventListener('DOMContentLoaded', function() {
+
+    const readMoreButtons = document.querySelectorAll('.read-more-btn3');
+
+
+    readMoreButtons.forEach(button => {
+        button.addEventListener('click', function() {
+            window.location.href = 'p3-details.html';
+        });
+    });
+});
