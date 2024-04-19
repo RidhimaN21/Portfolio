@@ -1,0 +1,31 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    height: 33px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    color: black;
+    background-color: rgb(224, 221, 221);
+}
+header a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.72);
+    margin-right: 30px;
+}
+.navbar a:last-child{
+    margin-right: 30px;  
+}
+.abt{
+    display: flex;
+}
+.abt img{
+    height:300px;
+    width:300px;
+    margin: 30px 80px 30px 120px;
+    border: white;
+    border-radius: 50%;
+}
